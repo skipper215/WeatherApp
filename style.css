@@ -1,3 +1,43 @@
+.cityInput {
+    font-size: 2rem;
+}
+
+.weatherForm button[type='submit'] {
+    font-size: 1.25rem;
+}
+
+.weatherForm {
+    display: flex;
+    justify-content: center; 
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; 
+}
+
 .card {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px;
+    border-radius: 10px; 
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    color: black; 
+    font-family: Arial, sans-serif;
+}
+
+.card h1 {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.card .temperature {
+    font-size: 1.8rem; 
+    font-weight: bold;
 }
